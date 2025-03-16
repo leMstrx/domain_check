@@ -69,7 +69,7 @@ def main():
     domain_length = st.sidebar.slider(
         "Number of characters:",
         min_value=1,
-        max_value=3,
+        max_value=5,
         value=2,
         help="Generate all alphabetical combinations of this length (a–z)."
     )
